@@ -1,0 +1,175 @@
+
+
+h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	padding: 0px;
+    color: #060839;
+    text-align: center;
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 15px:
+    color: #060839;
+    text-align: left;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 2%;
+    width: 96%;
+}
+
+li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    margin: 0px;
+    font-family: serif;
+    text-align: center;
+    font-size: 20px;
+    color: #060839;
+    text-decoration: none;
+    background-color: #E3DFE6;
+}
+
+a:hover { 
+    background-color: #060839;
+    color: white;
+}
+
+img{
+    border-radius: 50%;
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 15%; 
+    padding: 0px;
+}
+
+#hometext {
+    width: 96%;
+    margin-left: 2%; 
+    padding: 0px;
+}
+
+
+
+/*code targetting contact.html*/
+
+/*put the text in the very center of the screen 
+    regardless of the screen size*/
+    .contact_box{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+/*target class: "contact_info to differentiate it's style from the menu*/
+    .contact_info{
+    background-color: #060839;
+    width: 50px;
+    font-family: serif;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    width: 50%
+    }
+
+ .contact_info:hover { 
+    background-color: white;
+    color: #060839;
+    border: 2px solid;
+    border-color: #060839;
+    margin: 0px;
+}
+	
+
+/*mobile code targetting about.html*/
+
+.about {
+    display: block;
+    text-align: left;
+
+}
+
+h2 {
+    text-align:center;
+    font-family: sans-serif;
+    color: #060839;
+}
+
+/*desktop code*/
+
+@media only screen and (min-width: 600px) {
+    .flex{
+        display: flex;
+        width: 96%
+        margin-left2%
+    }
+    .about {
+        padding: 15px;
+
+    }
+    img{
+    border-radius: 50%;
+    width: 40%;
+    margin-top: 15%;
+    margin-left: 30%; 
+    padding: 0px;
+}
+
+    #hometext {
+        width: 96%;
+        margin-left: 2%; 
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+   img{
+    border-radius: 50%;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%; 
+    padding: 0px;
+}
+
+    #hometext {
+        width: 96%;
+        margin-left: 2%; 
+        padding: 0px;
+        }
+}
+
+@media only screen and (min-width: 600px) {
+   img{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%; 
+    padding: 0px;
+}
+
+    #hometext {
+        width: 96%%;
+        margin-left: 2%; 
+        padding: 0px;   
+
+ 
+
+
+
+
+
